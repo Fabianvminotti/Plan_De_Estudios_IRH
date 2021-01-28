@@ -1,0 +1,136 @@
+
+body{
+	
+	background-color: #EDDDD4;
+}
+
+
+header{
+	align-items: center;    
+	background-color: #197278;
+	color: white;
+	font-family: 'Montserrat', sans-serif;	
+	font-size: larger;
+	height: 50px;
+	line-height: 50px;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+
+aside{
+	
+	width: 15%;
+	border: 1px solid black;
+}
+
+.Contenedor_principal{
+	display: flex;
+
+
+}
+
+.Contenedro_secundario{
+	
+	width: 70%;
+}
+
+
+.contenedor_materias{
+	
+	display: inline-grid;
+	/*width: 250px;
+	height: 250px;*/
+	grid-gap: 5px;
+	grid-template-columns: 150px 150px;
+	grid-template-rows: 50px 150px 150px  ;
+	padding: 10px;}
+	/*border: 1px solid black;*/
+
+.contenedor_materias:hover{
+	
+	display: inline-grid;
+	background-color: #f2f2f2;
+	transition: 0.75s;
+	/*width: 250px;
+	height: 250px;*/
+	grid-gap: 5px;
+	grid-template-columns: 150px 150px;
+	grid-template-rows: 50px 150px 150px  ;
+	padding: 10px;
+	/*border: 1px solid black;*/
+	
+}
+
+.materias{
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	/*text-align: center;
+	vertical-align: middle;
+	align-content: center;*/
+	padding: 10px;
+	text-align: center;
+	justify-content: center;
+    align-items: center;
+	
+	background-color: #C44536;
+
+	}
+
+input{
+	display: block;
+	width: 60px;
+	text-align: center;
+	background-color: transparent;
+	border:1px solid white;
+	border-radius: 3px;
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 10px;
+
+}
+
+.materias:hover{
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Montserrat', sans-serif;
+	color: gray;
+	text-align: center;
+	background-color: transparent;
+	transition: 0.75s;
+
+	}
+
+.materias:hover input{
+	border:1px solid gray;
+	color: gray;
+	transition: 0.75s;
+
+	}
+
+/*.materias:active{
+	
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	align-content: center;
+	
+	background-color: white;
+	transition: 0.75s;
+
+	}*/
+
+.materias:first-child{
+	
+	color: #333333;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	background-color: transparent;
+	text-transform: uppercase;
+	font-size: large;
+}
+
